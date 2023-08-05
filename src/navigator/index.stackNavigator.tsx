@@ -8,11 +8,10 @@ import {StocksHoldingsScreen} from '../screens/index.screens';
 const Stack = createNativeStackNavigator();
 
 export const StackNavigator = props => {
-  console.log(props);
   // screenOptions is the options that will be applied to the screens
   const screenOptions: NativeStackNavigationOptions = {
     headerShown: false,
-    animation: 'none',
+    animation: 'default',
   };
   return (
     <Stack.Navigator
